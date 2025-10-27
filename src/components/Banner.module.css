@@ -6,8 +6,9 @@
   background: linear-gradient(to right, 
     var(--primary-blue) 0%, 
     var(--primary-blue) 50%,
-    var(--primary-blue) 70%,
-    transparent 100%
+    rgba(37, 99, 235, 0.3) 60%,
+    rgba(37, 99, 235, 0.1) 70%,
+    transparent 85%
   );
   background-size: 100% 100%;
   background-position: center;
@@ -27,26 +28,14 @@
   width: 50%;
   height: 100%;
   background-image: url('/images/with logo.jpeg');
-  background-size: contain;
+  background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
   z-index: 0;
 }
 
 .bannerOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(to right, 
-    var(--primary-blue) 0%, 
-    var(--primary-blue) 60%,
-    rgba(37, 99, 235, 0.95) 70%,
-    rgba(37, 99, 235, 0.8) 80%,
-    rgba(37, 99, 235, 0.5) 90%,
-    transparent 100%
-  );
+  display: none;
 }
 
 .bannerContent {
@@ -100,11 +89,18 @@
     min-height: 300px;
     flex-direction: column;
     justify-content: center;
+    background: linear-gradient(to bottom, 
+      var(--primary-blue) 0%, 
+      var(--primary-blue) 50%,
+      rgba(37, 99, 235, 0.3) 60%,
+      rgba(37, 99, 235, 0.1) 70%,
+      transparent 85%
+    );
   }
 
   .banner::before {
     width: 100%;
-    height: 50%;
+    height: 100%;
     background-position: center;
   }
 
@@ -112,15 +108,6 @@
     max-width: 90%;
     text-align: center;
     padding: var(--spacing-lg);
-  }
-
-  .bannerOverlay {
-    background: linear-gradient(to bottom, 
-      var(--primary-blue) 0%, 
-      var(--primary-blue) 50%,
-      rgba(37, 99, 235, 0.8) 80%,
-      transparent 100%
-    );
   }
   
   .labName {
