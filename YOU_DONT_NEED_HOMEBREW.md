@@ -62,3 +62,4 @@ Homebrew is not needed for your website, but if you want it for other tools:
 **Just use GitHub Desktop** - it's simpler and you don't need Homebrew!
 
 Your website is already ready and committed. Just push it using GitHub Desktop (2 minutes vs 10+ minutes to install Homebrew).
+

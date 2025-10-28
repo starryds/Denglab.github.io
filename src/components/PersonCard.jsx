@@ -14,3 +14,4 @@ function PersonCard({ person }) {
 }
 
 export default PersonCard;
+

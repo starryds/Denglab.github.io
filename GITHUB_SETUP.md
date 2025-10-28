@@ -144,3 +144,4 @@ Check the files:
 - `DEPLOYMENT.md` - Detailed deployment instructions
 - `README.md` - Project documentation
 - `SETUP.md` - Setup and customization guide
+

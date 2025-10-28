@@ -54,14 +54,14 @@
 }
 
 .learnMore {
-  color: var(--primary-blue);
+  color: var(--primary-blue-dark);
   font-weight: 500;
   font-size: 1rem;
   transition: var(--transition);
 }
 
 .learnMore:hover {
-  color: var(--primary-blue-dark);
+  color: var(--primary-blue);
 }
 
 @media (max-width: 768px) {

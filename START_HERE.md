@@ -109,3 +109,4 @@ Place images in `public/images/` and reference as `/images/filename.jpg`
 - Follow GITHUB_SETUP.md for deployment
 
 Happy coding! 🚀
+

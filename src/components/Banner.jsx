@@ -6,7 +6,7 @@ function Banner() {
       <div className={styles.bannerOverlay}></div>
       <div className={styles.bannerContent}>
         <h1 className={styles.labName}>DENG LAB</h1>
-        <p className={styles.subtitle}>Yale University</p>
+        <p className={styles.subtitle}>Yale School of Medicine</p>
       </div>
     </div>
   );

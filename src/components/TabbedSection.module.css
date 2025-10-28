@@ -28,18 +28,18 @@
   left: 0;
   right: 0;
   height: 2px;
-  background-color: var(--primary-blue);
+  background-color: var(--primary-blue-dark);
   transform: scaleX(0);
   transform-origin: center;
   transition: var(--transition);
 }
 
 .tab:hover {
-  color: var(--primary-blue);
+  color: var(--primary-blue-dark);
 }
 
 .tab.active {
-  color: var(--primary-blue);
+  color: var(--primary-blue-dark);
 }
 
 .tab.active::after {

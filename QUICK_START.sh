@@ -44,3 +44,4 @@ echo "1. Start development server: npm run dev"
 echo "2. Or build for production: npm run build"
 echo ""
 echo "For GitHub deployment, follow instructions in DEPLOYMENT.md"
+
