@@ -16,7 +16,7 @@
   color: var(--gray-700);
   max-width: 800px;
   margin: 0 auto;
-  text-align: center;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
