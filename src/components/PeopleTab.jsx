@@ -1,20 +1,12 @@
 import styles from './PeopleTab.module.css';
 import PersonCard from './PersonCard';
-
-const people = [
-  {
-    name: 'Dr. Deng',
-    role: 'Principal Investigator',
-    bio: 'Leading research in cancer metabolism and therapeutic development.',
-    photo: '/images/with logo.jpeg'
-  }
-];
+import { people } from '../data/people';
 
 function PeopleTab() {
   return (
     <div className={styles.peopleGrid}>
-      {people.map((person, index) => (
-        <PersonCard key={index} person={person} />
+      {people.map((person) => (
+        <PersonCard key={person.id} person={person} />
       ))}
     </div>
   );
