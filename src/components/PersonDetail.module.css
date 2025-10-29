@@ -40,12 +40,40 @@
   border-radius: 50%;
   overflow: hidden;
   border: 4px solid var(--gray-200);
+  background: #000000;
 }
 
 .photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Special styling for dog/cat images to show full image with black background */
+.photoContainer:has(img[src*="acor-mulan"]) {
+  padding: 12px;
+}
+
+.photoContainer:has(img[src*="cats"]) {
+  padding: 12px;
+}
+
+.photoContainer:has(img[src*="coco"]) {
+  padding: 12px;
+}
+
+.photoContainer img[src*="acor-mulan"] {
+  object-fit: contain;
+}
+
+.photoContainer img[src*="cats"] {
+  object-fit: contain;
+  transform: scale(1.0); /* Adjust this value to zoom in/out: 1.0 = 100%, 1.2 = 120%, 0.9 = 90%, etc. */
+}
+
+.photoContainer img[src*="coco"] {
+  object-fit: contain;
+  transform: scale(1.0); /* Adjust this value to zoom in/out: 1.0 = 100%, 1.2 = 120%, 0.9 = 90%, etc. */
 }
 
 .info {

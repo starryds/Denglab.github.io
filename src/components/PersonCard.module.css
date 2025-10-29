@@ -23,12 +23,13 @@
 }
 
 .photoContainer {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto var(--spacing-lg);
   border-radius: 50%;
   overflow: hidden;
   border: 4px solid var(--gray-200);
+  background: #000000;
   transition: var(--transition);
 }
 
@@ -40,6 +41,33 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Special styling for specific images */
+.photoContainer:has(img[src*="acor-mulan"]) {
+  padding: 8px;
+}
+
+.photoContainer:has(img[src*="cats"]) {
+  padding: 8px;
+}
+
+.photoContainer:has(img[src*="coco"]) {
+  padding: 8px;
+}
+
+.photoContainer img[src*="acor-mulan"] {
+  object-fit: contain;
+}
+
+.photoContainer img[src*="cats"] {
+  object-fit: contain;
+  transform: scale(1.2); /* Adjust this value to zoom in/out: 1.0 = 100%, 1.2 = 120%, 0.9 = 90%, etc. */
+}
+
+.photoContainer img[src*="coco"] {
+  object-fit: contain;
+  transform: scale(1.5); /* Adjust this value to zoom in/out: 1.0 = 100%, 1.2 = 120%, 0.9 = 90%, etc. */
 }
 
 .name {
