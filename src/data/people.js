@@ -17,7 +17,7 @@ export const people = [
 
 Su received her Ph.D. in Biomedical Sciences from Weill Cornell Medicine and conducted her doctoral research at Memorial Sloan Kettering Cancer Center. She completed her postdoctoral training at UT Southwestern Medical Center in 2024 and subsequently joined Yale School of Medicine as a tenure-track faculty member. Her research program focuses on dissecting the molecular mechanisms of therapy resistance in advanced prostate cancer. The Deng Lab integrates functional genomics, organoid engineering, multi-omics profiling, and translational model systems to uncover new therapeutic strategies.
 
-Su's work has been recognized with major awards, including the National Cancer Institute K22 Career Development Award and the PCF Young Investigator Award. Interested students and postdocs are encouraged to contact her for research opportunities.
+Su's work has been recognized with major awards, including the National Cancer Institute K22 Career Development Award and the PCF Young Investigator Award. 
 
 Outside the lab, Su enjoys gardening and caring for her collection of over 60 rose varieties, fishing as a way to relax and reflect, and spending time with music and art through attending classical concerts and visiting museums. A devoted corgi lover, she shares her life with two spoiled corgis and loves taking them on road trips—they have even dipped their paws in both the Caribbean Sea and the Atlantic Ocean. `
   },
@@ -31,7 +31,7 @@ Outside the lab, Su enjoys gardening and caring for her collection of over 60 ro
 Outside the lab, Anfeng enjoys movies and often finds creative inspiration from them. He’s passionate about sports especially basketball and soccer, and loves trying new athletic activities and outdoor adventures.`
   },
   {
-    id: 'Dr. Qian',
+    id: 'jiaying-qian',
     name: 'Dr. Jiaying Qian',
     title: 'Postdoctoral Associate',
     photo: '/images/jiaying-qian.jpg',
@@ -49,7 +49,7 @@ Outside of the lab, Jiaying enjoys exploring new interests and creative pursuits
   {
     id: 'dog',
     name: 'Acor (red and white) & Mulan (black head tri-color)',
-    title: 'Title/Emotional Support Unit',
+    title: 'Emotional Support Unit',
     photo: '/images/acor-mulan.jpg',
     introduction: `Acor was diagnosed with IVDD, a spinal condition that can cause paralysis in dogs. Su worked hard to make sure she had the savings ready for Acor’s surgery.
 

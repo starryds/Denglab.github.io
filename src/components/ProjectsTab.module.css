@@ -20,20 +20,19 @@
 
 .imageContainer {
   width: 100%;
-  height: 250px;
+  height: 150px;
   overflow: hidden;
-  background: var(--gray-100);
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .projectImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   transition: var(--transition);
-}
-
-.projectCard:hover .projectImage {
-  transform: scale(1.05);
 }
 
 .cardContent {
@@ -43,7 +42,7 @@
 .projectTitle {
   font-size: 1.5rem;
   margin-bottom: var(--spacing-md);
-  color: var(--gray-900);
+  color: var(--primary-blue-dark);
 }
 
 .projectDescription {
@@ -51,17 +50,11 @@
   color: var(--gray-600);
   line-height: 1.6;
   margin-bottom: var(--spacing-lg);
+  text-align: justify;
 }
 
 .learnMore {
-  color: var(--primary-blue-dark);
-  font-weight: 500;
-  font-size: 1rem;
-  transition: var(--transition);
-}
-
-.learnMore:hover {
-  color: var(--primary-blue);
+  display: none; /* Hidden until papers are published */
 }
 
 @media (max-width: 768px) {
