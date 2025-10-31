@@ -60,7 +60,7 @@ Mulan, on the other hand, has disliked most other dogs since joining the family 
     name: 'Pixel (black) & Voxel (tuxedo)',
     title: 'Genotyping Pre-Disaster Control Team',
     photo: '/images/cats.jpg',
-    introduction: `Recent studies in our lab suggest that petting the cat on the same day prior to genotyping significantly reduces the likelihood of being bitten by a mouse (N = 1, p = not applicable).`
+    introduction: `Recent studies in our lab suggest that petting the cat on the same day prior to genotyping significantly reduces the likelihood of being bitten by a mouse (n= 1, p value not applicable).`
   },
   {
     id: 'coco',
