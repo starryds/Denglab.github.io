@@ -9,7 +9,7 @@ export const newsItems = [
   {
     date: 'November 2025 Deng Receives Grant from NCI for Research on Prostate Cancer',
     title: 'PCF Young Investigator Award',
-    description: 'Su Deng Ph.D. receives the 2025 Prostate Cancer Foundation Young Investigator Award',
+    description: 'Su Deng Ph.D. receives the 2025 Prostate Cancer Foundation Young Investigator Award.',
     type: 'award'
   },
   {
@@ -33,7 +33,7 @@ export const newsItems = [
   {
     date: 'January 2025',
     title: 'Welcome New Postdoc - Anfeng Luo',
-    description: '',
+    description: 'Anfeng joins the lab to lead the transcriptional control of therapy resistance project.',
     type: 'news'
   }
 ];
